@@ -5,6 +5,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+// 세션체크, 권한체크, 로그남기기(log4j)
+
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
 
