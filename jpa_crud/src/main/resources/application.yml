@@ -18,3 +18,11 @@ spring:  mvc:    view:      prefix: /WEB-INF/views/
               http:    encoding:      charset: UTF-8
       enabled: true
       force: true
+      
+  servlet:
+    multipart:      enabled: true
+      max-file-size: 1MB
+      
+file:
+  path: C:/Users/Administrator/Desktop/Springwork4/jpa_crud/src/main/resources/upload/        
+  

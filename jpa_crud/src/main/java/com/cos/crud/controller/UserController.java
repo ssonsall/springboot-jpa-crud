@@ -34,7 +34,7 @@ public class UserController {
 		User u = mService.userLogin(user);
 		if (u != null) {
 			session.setAttribute("user", u);
-			return Script.href("/");
+			return Script.href("/admin/list");
 		} else {
 			return Script.back("Login Fail");
 		}
